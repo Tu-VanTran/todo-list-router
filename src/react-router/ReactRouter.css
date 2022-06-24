@@ -1,0 +1,23 @@
+.app-router{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Phần Router */
+.all-task,
+.new-task,
+.doing-task,
+.done-task,
+.search-task {
+    width: 94%;
+    padding: 1% ;
+    padding-left: 4%;
+    height: 78.5vh;
+}
+
+.all-task {
+    display: flex;
+    flex-wrap: wrap;
+}

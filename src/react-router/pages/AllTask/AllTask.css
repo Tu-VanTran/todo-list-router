@@ -1,0 +1,42 @@
+.all-task-item{
+    width: 20%;
+    height: 25vh;
+    border: 2px solid rgb(247, 64, 177);
+    border-radius: 10px;
+    padding:0 5px;
+    font-size: 13px;
+    line-height: 10px;
+    margin: 5px 25px;
+}
+
+.all-task-item:hover {
+    cursor: pointer;
+}
+
+.title {
+    font-weight: bold;
+}
+.des {
+    border-top: 2px solid rgb(247, 64, 177);
+    padding-top: 2px;
+}
+
+.des span {
+    font-weight: bold;
+}
+
+.span{
+    font-weight: bold;
+}
+
+.New {
+    color: green;
+}
+
+.Doing {
+    color: darkorchid;
+}
+
+.Done {
+    color: midnightblue;
+}

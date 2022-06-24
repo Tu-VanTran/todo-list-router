@@ -1,0 +1,78 @@
+.create-detail {
+    width: 93%;
+    padding: 2%;
+    padding-left: 5%;
+    height: 78.5vh;
+    float: left;
+}
+
+.detail-form{
+   margin: auto;
+    width: 50%;
+    height: 50vh;
+    padding: 10px;
+    font-weight: bold;
+    display: block;
+    
+}
+
+.label-input {
+    width: 100%;
+    height: 30px;
+}
+
+.label-input label {
+    width: 25%;
+    display: block;
+    padding: 10px;
+    text-align: left;
+    float: left;
+    margin: 2px 0;
+   
+}
+
+.label-input input {
+    width: 62%;
+    height: 40px;
+    outline: none;
+    border:none ;
+    background-color: rgb(240, 240, 240);
+    border-bottom:2px solid rgb(184, 182, 182) ;
+    float: left;
+    padding-left: 10px;
+    margin: 2px 0;
+}
+
+.detail-radio {
+    margin-top: 40px;
+    margin-left: -3%;
+    
+}
+
+.detail-radio input{
+    margin-left: 19%;
+    
+}
+
+
+
+.detail-button {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    
+}
+
+.detail-button button {
+    padding:8px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color:rgb(34, 119, 175) ;
+    font-size: 17px;
+    color: white;
+    margin: 10px;
+}
+
+.detail-button button:hover {
+    cursor: pointer;
+}

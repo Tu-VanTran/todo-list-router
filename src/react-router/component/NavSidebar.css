@@ -1,0 +1,119 @@
+.nav-bars {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.nav-horizontally{
+    width: 98%;
+    padding: 0 1%;
+    height: 13vh;
+    background-color: rgb(0, 7, 61);
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid rgb(39, 124, 194);
+}
+
+.nav-horizontally .created {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 2px solid rgb(27, 226, 133);
+    border-radius:  10px ;
+    color: rgb(27, 226, 133);
+}
+
+.nav-horizontally .created:hover {
+    color: rgb(238, 64, 223);
+    border: 2px solid rgb(238, 64, 223);
+    border-radius: 0 10px 10px 0;
+}
+
+.nav-horizontally input {
+    width: 40%;
+    height: 50px;
+    font-size: 20px;
+    border: 2px solid rgb(27, 226, 133);
+    border-radius: 10px 0 0 10px; 
+    outline: none;
+    background-color:rgb(0, 7, 61) ;
+    margin-right: -10%;
+    color: aliceblue;
+}
+
+.nav-horizontally input::placeholder {
+    color: rgb(27, 226, 133);
+}
+
+.nav-horizontally button {
+    padding: 11.5px 20px;
+    border: 2px solid rgb(27, 226, 133);
+    color: rgb(27, 226, 133);
+    font-size: 20px;
+    background-color:rgb(0, 7, 61);
+    border-radius: 0 10px 10px 0;
+    margin-left: 2%;
+}
+
+.nav-horizontally button:hover {
+    color: rgb(238, 64, 223);
+    border: 2px solid rgb(238, 64, 223);
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+/* Thanh Task Bars dọc */
+.nav-vertical{
+    float: left;
+    width: 15%;
+    height: 87vh;
+    background-color: rgb(0, 7, 61);
+    padding-top: 10px;
+    position: fixed;
+    top: 13.3vh;
+}
+.nav-vertical p {
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    margin: -10px 0 30px -5px;
+}
+
+.nav-vertical svg {
+    float: right;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.nav-task {
+   display: flex;
+    padding: 25px 0;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.icon {
+    padding: 0 10px;
+}
+
+.active {
+    color: rgb(64, 248, 8);
+    background-color:rgb(34, 119, 175);
+    border-right: 4px solid rgb(247, 64, 177);
+}
+
+.nav-task:hover {
+    color: rgb(64, 248, 8);
+    background-color:rgb(133, 171, 197);
+    
+}
+.nav-vertical.hide {
+    width: 40px;
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
